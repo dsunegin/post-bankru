@@ -1,0 +1,29 @@
+{
+  "name": "post-bankru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "post-bankru.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsunegin/post-bankru.git"
+  },
+  "keywords": [],
+  "author": "Denis Sunegin <denis.sunegin@email.com> (https://github.com/dsunegin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsunegin/post-bankru/issues"
+  },
+  "homepage": "https://github.com/dsunegin/post-bankru#readme",
+  "dependencies": {
+    "crc": "^3.8.0",
+    "date-fns": "^2.17.0",
+    "dotenv": "^8.2.0",
+    "jsonfile": "^6.1.0",
+    "mysql2": "^2.2.5",
+    "nunjucks": "^3.2.3",
+    "slugify": "^1.4.7"
+  }
+}
