@@ -1,8 +1,8 @@
-<img alt="Курсы Гривни (UAH) на {{ dateloc }}" src="{{ imgsrc }}">
-<p>Национальный Банк Украины состоянием на {{ dateloc }} установил следующие курсы Гривни (UAH) по отношению к основным мировым валютам:</p>
+<img alt="Курсы Рубля (RUB) на {{ dateloc }}" src="{{ imgsrc }}">
+<p>Центральный Банк России состоянием на {{ dateloc }} установил следующие курсы Рубля (RUB) по отношению к мировым валютам:</p>
 
-{% for feature in features %}{% if feature.code=='USD/UAH' or feature.code=='EUR/UAH' or feature.code=='GBP/UAH'
-or feature.code=='RUB/UAH' %}<p>{{ feature.code }} ({{ feature.currency }}) {{ feature.rate }}</p> {% endif %}{% endfor %}
+{% for feature in features %}{% if feature.code=='USD/RUB' or feature.code=='EUR/RUB' or feature.code=='GBP/RUB'
+or feature.code=='RUB/RUB' %}<p>{{ feature.code }} ({{ feature.currency }}) {{ feature.rate }}</p> {% endif %}{% endfor %}
 
 <table class="table-finance">
 <thead>
@@ -23,4 +23,4 @@ or feature.code=='RUB/UAH' %}<p>{{ feature.code }} ({{ feature.currency }}) {{ f
 {% endfor %}
 </tbody>
 </table>
-<p>Эксперты БиБаБо (Bbabo.net) всегда в курсе последних изменений на валютном рынке</p>
+<p>Эксперты БиБаБо (Bbabo.net) отслеживают все изменения на валютном рынке России</p>
